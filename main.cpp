@@ -53,7 +53,7 @@ int main() {
     double traningOutput[trainingSetsNum][numOutput] = {{0.0f},
                                                         {1.0f},
                                                         {1.0f},
-                                                        {1.0f}};
+                                                        {0.0f}};
     for (int i = 0; i < numInput; i++) {
         for (int j = 0; j < numHidden; j++) {
             hiddenWeights[i][j] = init_weight();
